@@ -1,0 +1,20 @@
+Walk me through your experience with Linux commands.
+In my daily work, I use Linux commands to manage servers, check system health, monitor resources and troubleshoot basic issues.
+
+Some commands I regularly work with are:
+1. File Management: ls, cd, pwd, mkdir, cp, mv, rm – to manage files and directories.
+2. User Management: useradd, passwd, usermod, id – to create and manage users.
+3. Permissions: chmod, chown – to manage file and directory permissions.
+4. System Monitoring: top, free -h, df -h, du -sh, uptime – to check CPU, memory, disk usage and system load.
+5. Service Management: systemctl, service – to start, stop, restart and check services like SSH, Apache and Nginx.
+6. Log Management: tail -f, cat, less, grep – to check logs and troubleshoot application issues.
+7. Network Troubleshooting: ping, curl, ss -tulnp, ip addr – to check connectivity, IP addresses and listening ports.
+Real-time production example:
+
+For example, if an application is not accessible, I first check whether the server is running and then check CPU, memory and disk usage.
+
+After that, I check the application service using systemctl status, verify the required port using ss -tulnp, and check application logs using tail -f.
+
+Based on the error, I try to identify the issue and take the required action. If it requires application-level changes, I coordinate with the application team.
+
+Overall, I use Linux commands regularly for server management, monitoring and basic troubleshooting.
